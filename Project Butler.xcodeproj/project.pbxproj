@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841BFB6828030F8E000DF97E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BFB6728030F8E000DF97E /* UIColor.swift */; };
+		841BFB6A28034021000DF97E /* CapsuleTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BFB6928034021000DF97E /* CapsuleTabBar.swift */; };
+		84251D062778D23500FD7FEA /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84251D052778D23500FD7FEA /* ViewExtension.swift */; };
+		84251D082778D46A00FD7FEA /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84251D072778D46A00FD7FEA /* SwiftUIView.swift */; };
+		84251D0A2778D7AA00FD7FEA /* textSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84251D092778D7AA00FD7FEA /* textSwiftUIView.swift */; };
+		845E836C2895A8DB002E7A39 /* HandDrawingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E836B2895A8DB002E7A39 /* HandDrawingVC.swift */; };
 		8461E3B927723AC4008878CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461E3B827723AC4008878CC /* AppDelegate.swift */; };
 		8461E3BB27723AC4008878CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461E3BA27723AC4008878CC /* SceneDelegate.swift */; };
 		8461E3BD27723AC4008878CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461E3BC27723AC4008878CC /* ViewController.swift */; };
 		8461E3C027723AC4008878CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8461E3BE27723AC4008878CC /* Main.storyboard */; };
 		8461E3C227723AC5008878CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8461E3C127723AC5008878CC /* Assets.xcassets */; };
 		8461E3C527723AC5008878CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8461E3C327723AC5008878CC /* LaunchScreen.storyboard */; };
+		847D0B23289056B600B0BE77 /* PannableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D0B22289056B600B0BE77 /* PannableView.swift */; };
+		848573CD27738CEC0046B861 /* present.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848573CC27738CEC0046B861 /* present.swift */; };
+		84FB7377279EA0210001D28C /* CustomCollectionview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB7376279EA0210001D28C /* CustomCollectionview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		841BFB6728030F8E000DF97E /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		841BFB6928034021000DF97E /* CapsuleTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleTabBar.swift; sourceTree = "<group>"; };
+		84251D052778D23500FD7FEA /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		84251D072778D46A00FD7FEA /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		84251D092778D7AA00FD7FEA /* textSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textSwiftUIView.swift; sourceTree = "<group>"; };
+		845E836B2895A8DB002E7A39 /* HandDrawingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandDrawingVC.swift; sourceTree = "<group>"; };
 		8461E3B527723AC4008878CC /* Project Butler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Butler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8461E3B827723AC4008878CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8461E3BA27723AC4008878CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,10 @@
 		8461E3C127723AC5008878CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8461E3C427723AC5008878CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8461E3C627723AC5008878CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8461E3CC27723AF0008878CC /* Project Butler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Project Butler.entitlements"; sourceTree = "<group>"; };
+		847D0B22289056B600B0BE77 /* PannableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PannableView.swift; sourceTree = "<group>"; };
+		848573CC27738CEC0046B861 /* present.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = present.swift; sourceTree = "<group>"; };
+		84FB7376279EA0210001D28C /* CustomCollectionview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +75,23 @@
 		8461E3B727723AC4008878CC /* Project Butler */ = {
 			isa = PBXGroup;
 			children = (
+				8461E3CC27723AF0008878CC /* Project Butler.entitlements */,
 				8461E3B827723AC4008878CC /* AppDelegate.swift */,
 				8461E3BA27723AC4008878CC /* SceneDelegate.swift */,
+				84251D052778D23500FD7FEA /* ViewExtension.swift */,
 				8461E3BC27723AC4008878CC /* ViewController.swift */,
+				841BFB6728030F8E000DF97E /* UIColor.swift */,
 				8461E3BE27723AC4008878CC /* Main.storyboard */,
 				8461E3C127723AC5008878CC /* Assets.xcassets */,
 				8461E3C327723AC5008878CC /* LaunchScreen.storyboard */,
 				8461E3C627723AC5008878CC /* Info.plist */,
+				848573CC27738CEC0046B861 /* present.swift */,
+				84251D072778D46A00FD7FEA /* SwiftUIView.swift */,
+				84251D092778D7AA00FD7FEA /* textSwiftUIView.swift */,
+				84FB7376279EA0210001D28C /* CustomCollectionview.swift */,
+				841BFB6928034021000DF97E /* CapsuleTabBar.swift */,
+				847D0B22289056B600B0BE77 /* PannableView.swift */,
+				845E836B2895A8DB002E7A39 /* HandDrawingVC.swift */,
 			);
 			path = "Project Butler";
 			sourceTree = "<group>";
@@ -139,8 +168,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				8461E3BD27723AC4008878CC /* ViewController.swift in Sources */,
+				847D0B23289056B600B0BE77 /* PannableView.swift in Sources */,
+				845E836C2895A8DB002E7A39 /* HandDrawingVC.swift in Sources */,
+				84251D0A2778D7AA00FD7FEA /* textSwiftUIView.swift in Sources */,
+				848573CD27738CEC0046B861 /* present.swift in Sources */,
+				841BFB6A28034021000DF97E /* CapsuleTabBar.swift in Sources */,
+				84251D082778D46A00FD7FEA /* SwiftUIView.swift in Sources */,
+				841BFB6828030F8E000DF97E /* UIColor.swift in Sources */,
 				8461E3B927723AC4008878CC /* AppDelegate.swift in Sources */,
 				8461E3BB27723AC4008878CC /* SceneDelegate.swift in Sources */,
+				84251D062778D23500FD7FEA /* ViewExtension.swift in Sources */,
+				84FB7377279EA0210001D28C /* CustomCollectionview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,9 +325,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Project Butler/Project Butler.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZNKFV935BY;
+				DEVELOPMENT_TEAM = L3D3A22YK5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Project Butler/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -302,8 +341,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ASMC.Project-Butler";
+				PRODUCT_BUNDLE_IDENTIFIER = "ASMC.Project-Butler.01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,9 +355,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Project Butler/Project Butler.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZNKFV935BY;
+				DEVELOPMENT_TEAM = L3D3A22YK5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Project Butler/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -330,8 +371,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ASMC.Project-Butler";
+				PRODUCT_BUNDLE_IDENTIFIER = "ASMC.Project-Butler.01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
